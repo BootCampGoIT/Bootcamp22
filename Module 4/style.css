@@ -1,0 +1,5 @@
+.list {
+  background-color: teal;
+  display: flex;
+  justify-content: space-around;
+}
