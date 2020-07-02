@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+
+/* ========================= navigation ====================== */
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigationLink {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.navigationLink a {
+    padding: 5px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.activeNavigationLink {
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+/* ========================= productForm ====================== */
+
+.productForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.formInput {
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.formInput::placeholder {
+    padding-left: 5px;
+}
+
+.formButton {
+    width: 150px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* ============================= pages =========================== */
+.content {
+    padding: 5px;
+}
+
+.pageTitle {
+    color: white;
+}
+
+/* ================================ productsPage ============================= */
+.productList {
+    background-color: white;
+}
