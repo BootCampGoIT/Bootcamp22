@@ -11,10 +11,6 @@ export const navigation = () => {
 
     const setActiveLink = (e) => {
         e.preventDefault();
-        // if (e.target === e.currentTarget) {
-        //     return
-        // }
-
         if (e.target.nodeName === "A" && e.target.dataset.navlink) {
             const activeLink = navigation.querySelector('.activeNavigationLink');
             (activeLink) && activeLink.classList.remove('activeNavigationLink');
@@ -45,15 +41,5 @@ export const navigation = () => {
     }
     console.dir(navigation.children);
     navigation.addEventListener('click', setActiveLink);
-
-    // ======================== bubbling ===========================
-
-    // navigation.addEventListener('click', ()=>console.log("UL"));
-    // [...navigation.children].forEach(item => item.addEventListener('click', (e) => {
-    //     console.log("LI")}));
-    // [...navigation.children].forEach(item => item.children[0].addEventListener('click', (e) => {
-    //     e.stopImmediatePropagation();
-    //     console.log("A")}));
-
 }
 
