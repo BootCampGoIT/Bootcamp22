@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Alex",
+    "age": 25,
+    "status": "student",
+    "courses": ["JS", "React"]
+  },
+  {
+    "name": "Nikita",
+    "age": 35,
+    "status": "student",
+    "courses": ["JS", "Angular"]
+  },
+  {
+    "name": "Bob",
+    "age": 56,
+    "status": "student",
+    "courses": ["JS", "Node"]
+  }
+]
